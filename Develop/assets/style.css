@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+
+}
+header{
+position: sticky;
+width: 100vw;
+height: 200px;
+justify-content: center;
+background: pink;
+}
+main{
+    
+}
+.frog{
+display: flex;
+width: 100vw;
+    height: 100vh;
+}
+
+.box{
+height: 100vmax;
+width: 200px;
+background: blue;
+margin: 0px 75px;
+}
+
+.line{
+display: flex;
+justify-content: space-evenly;
+}
+
+.circle{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    background: red;
+    border-radius: 100%;
+}
+
+.line2{
+    justify-content: center;
+}
+
+.oval{
+height: 400px;
+width: 1400px;
+background: green;
+border-radius: 50%;
+margin-left: 75px;
+margin-bottom: 50px;
+}
