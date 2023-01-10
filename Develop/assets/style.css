@@ -2,32 +2,40 @@ body{
     background-color: black;
 
 }
+
+h3{
+color: aliceblue;
+text-justify: ;
+}
 header{
 position: sticky;
-width: 100vw;
-height: 200px;
 justify-content: center;
 background: pink;
 }
 main{
     
 }
+
+.intro{
+
+}
+
 .frog{
-display: flex;
-width: 100vw;
+    display: flex;
+    width: 100vw;
     height: 100vh;
 }
 
 .box{
-height: 100vmax;
-width: 200px;
-background: blue;
-margin: 0px 75px;
+    height: 100vmax;
+    width: 200px;
+    background: blue;
+    margin: 0px 75px;
 }
 
 .line{
-display: flex;
-justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .circle{
@@ -37,6 +45,13 @@ justify-content: space-evenly;
     background: red;
     border-radius: 100%;
 }
+
+.circle header {
+    padding: 60px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
 
 .line2{
     justify-content: center;
