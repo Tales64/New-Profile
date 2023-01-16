@@ -3,20 +3,22 @@ body{
 
 }
 
+nav{
+    height: 200px;
+    justify-content: center;
+}
+h1{
+    font-size: 200px;
+    font-style: fantasy;
+
+    color: rgb(86, 84, 87);
+}
 h3{
 color: aliceblue;
 text-justify: ;
 }
-header{
-position: sticky;
-justify-content: center;
-background: pink;
-}
-main{
-    
-}
 
-.intro{
+header{
 
 }
 
@@ -25,33 +27,32 @@ main{
     width: 100vw;
     height: 100vh;
 }
-
+.intro{
+    justify-content: center;
+    width: fit-content;
+    margin-left: 145px;
+    color: aliceblue;
+    font-size: 40px;
+}
 .box{
     height: 100vmax;
     width: 200px;
-    background: blue;
+    background: rgb(91, 91, 116);
     margin: 0px 75px;
 }
 
 .line{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.circle{
-    height: 400px;
-    width: 400px;
-    margin: 50px;
-    background: red;
+
+.circle2{
+    height: 450px;
+    width: 450px;
     border-radius: 100%;
-}
 
-.circle header {
-    padding: 60px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-  }
+}
 
 .line2{
     justify-content: center;
