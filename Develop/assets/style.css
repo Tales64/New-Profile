@@ -8,10 +8,16 @@ nav{
     justify-content: center;
 }
 h1{
+    text-align: center;
     font-size: 200px;
     font-style: fantasy;
-
     color: rgb(86, 84, 87);
+}
+h2{
+    font-size: 100px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
 }
 h3{
 color: aliceblue;
@@ -21,16 +27,18 @@ text-justify: ;
 header{
 
 }
-
+.container{
+    position: relative;
+    text-align: center;
+    color: rgb(195, 207, 30);
+}
 .frog{
     display: flex;
     width: 100vw;
     height: 100vh;
 }
 .intro{
-    justify-content: center;
-    width: fit-content;
-    margin-left: 145px;
+    text-align: center;
     color: aliceblue;
     font-size: 40px;
 }
@@ -51,7 +59,7 @@ header{
     height: 450px;
     width: 450px;
     border-radius: 100%;
-
+    
 }
 
 .line2{
