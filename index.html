@@ -1,65 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Develop/assets/reset.css">
-    <link rel="stylesheet" href="./Develop/assets/style.css">
-
-</head>
-<body>
-    <nav>
-        <h1>Darryl Tillman</h1>
-            <!-- hover and nav links show up -->
-        <h3></h3>
+    <title>Darryl Tillman's Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/animate.css">
+    
+  </head>
+  <body>
+    <header class="header">
+      <!-- Portfolio Name -->
+      <h1>Darryl Tillman's Portfolio</h1>
+      <nav class="line">
+        
+        <!--Nav links -->
+        <ul>
+          <li><a href="#about-me-section">About Me</a></li>
+          <li><a href="#my-work-section">My Work</a></li>
+          <li><a href="#contact-me-section">Contact Me</a></li>
+          <li><a a href="./assets/documents/2022_Professional_CV.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </div>
     </nav>
-    <main class="frog">
-        <section class="box">
-
+  </header>
+  <main class="html-overlay"> 
+    <section>
+      <img src="./assets/img/Profile.png" alt="" id="circle2">
+    </section>
+    <section class="frog">
+      <div>
+        <h3 id="about-me-section">About Me</h2>
+          <p>Hi i'm darryl and i'm an aspiring full stack web developer.</p>
+        </div>
+        <div>
+          <h2 class="intro" id="my-work-section"> Projects</h2>
+          <div class="container">
+            
+            <h2>Refactoring</h2>
+            <a href="https://tales64.github.io/New-Refactoring/#search-engine-optimization"><img src="./assets/img/127.0.0.1_5500_Develop_index2.html.png" alt="" class="oval"></a>
+          </div>
+          <div class="container">
+            <h2>Bookemon</h2>
+            <a href="https://btay786.github.io/1-project-to-rule/"><img src="./assets/img/Bookemon-demo.gif" alt="" class="oval"></a>
+            
+            
+          </div>
+          <div class="container">
+            
+            <h2>Plentiful Pantry</h2>
+            <a href="https://plentiful-pantry.herokuapp.com/api/users/login" alt=""><canvas href="https://plentiful-pantry.herokuapp.com/api/users/login" id="canvas2"  class="oval"></canvas>
+                    </a>
+                    
+                </div>
+                
+              </div>
+            </section>
+        <section class="beaver">
+              <h4 id="contact-me-section">Contact Me</h4>
+              <div>
+              <ul>
+            <li>
+            <!-- <a href=""><img src="" alt="" class="oval"></a> -->
+            <a href="https://github.com/Tales64"><img src="" alt="" class="">Github</a></li>
+            <li>
+            <a href="https://www.tales64@yahoo.com/" target="_blank">Email</a></li>
+            <li>
+            <a href="https://www.linkedin.com/in/darryl-tillman-07a28a94/"><img src="" alt="" class="">Linkedin</a></li>
+          </ul>
+        </div>
         </section>
-        <section>
-            <div class="line">
-                <section>
-                    <header class="intro">Bruce</header>
-                    <img src="./Develop/assets/img/bruce_by_tales64_d14i1tt.jpg" alt="" class="circle2">
-                </section>
-                <section>
-                    <header class="intro">Beaver</header>
-                    <img src="./Develop/assets/img/beaver200.jpg" alt="" class="circle2">
-                </section>
-                <section>
-                    <header class="intro">Lion</header>
-                    <img src="./Develop/assets/img/lion_by_tales64_d14i1wu.jpg" alt="" class="circle2">
-                </section>
-            </div>
-            <div class="line2">
-                <header class="intro"> Projects</header>
-                <div class="container">
-
-                    <a href="https://tales64.github.io/New-Refactoring/#search-engine-optimization"><img src="./Develop/assets/img/127.0.0.1_5500_Develop_index2.html.png" alt="" class="oval"></a>
-                    <h2>Refactoring</h2>
-                </div>
-                <div class="container">
-                    <a href="https://btay786.github.io/1-project-to-rule/"><img src="./Develop/assets/img/Bookemon-demo.gif" alt="" class="oval"></a>
-                    <h2>Bookemon</h2>
-                    
-                    
-                </div>
-                <div class="container">
-                    
-                    <a href="https://plentiful-pantry.herokuapp.com/api/users/login"><img src="./Develop/assets/img/Plentiful Pantry.png" alt="" class="oval"></a>
-                    <h2>Plentiful Pantry</h2>
-    
-                </div>
-                 
-            </div>
-        </section>
-    </main>
+        </main>
     <footer>
-
+      
+        <h4>&copy 2022 Darryl Tillman Webpage Production</h4>
     </footer>
-    
+    <script src="./assets/animation.js"></script>
 </body>
 </html>
+
+
+
