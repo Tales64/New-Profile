@@ -25,6 +25,7 @@ h2{
 h3{
 color: aliceblue;
 text-justify: center;
+    font-size: 50px;
 }
 
 .container{
@@ -46,7 +47,6 @@ text-justify: center;
     background: rgb(91, 91, 116);
     margin: 0px 75px;
 }
-
 .line{
     display: block;
 }
@@ -55,10 +55,15 @@ text-justify: center;
 #circle2{
     display: flex;
     height: 200px;
-    width: 200px;
+    width: 225px;
     border-radius: 100%;
-    justify-content: right;
+    align-content: center;
+    padding: 10px;
     
+}
+#cats{
+    height: 100%;
+    width: 100%;
 }
 
 .line2{
@@ -66,11 +71,12 @@ text-justify: center;
 }
 
 .oval{
-height: 400px;
-width: 1400px;
+    object-fit: fill;
+height: 375px;
+width: 1250px;
 background: #aebb68;
 border-radius: 50%;
-margin-left: 75px;
+margin-left: 25px;
 margin-bottom: 50px;
 }
 
@@ -130,4 +136,44 @@ margin-bottom: 50px;
 }
 footer{
     color: #aebb68;
+}
+
+/* #canvas2 {
+    object-fit: fill;
+    height: 300px;
+    width: 700px;
+    background: #aebb68;
+    border-radius: 50%;
+    margin-left: 75px;
+    margin-bottom: 50px;
+} */
+
+#my-work-section {
+    background: #939490;
+    width: 100%;
+
+}
+#about-me-section {
+    background: #696967;
+    width: 50%;
+}
+#selfimage {
+    background: #3f3f3f;
+    width: 100%;
+    align-items: center;
+}
+
+@media(min-width: 600px){
+    .oval{
+        object-fit: fill;
+        height: 188px;
+        width: 625px;
+        background: #aebb68;
+        border-radius: 50%;
+        margin-left: 25px;
+        margin-bottom: 50px;
+    }
+}
+@media screen {
+    
 }
